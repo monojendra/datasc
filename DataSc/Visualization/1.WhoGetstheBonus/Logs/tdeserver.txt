@@ -1,0 +1,337 @@
+2018-05-14 16:11:07.736 (0676): -----------------------------------------------------------------------------
+2018-05-14 16:11:07.736 (0676): Initializing fault reporting
+2018-05-14 16:11:07.736 (0676): Fault reporting log pathname: C:\Users\monodutt\Documents\Personal\DataSc\Visualization\1.WhoGetstheBonus\Logs\tdeserver64-error_11668_18-0514-161107.log
+2018-05-14 16:11:07.737 (0676): Initializing MiniDump
+2018-05-14 16:11:07.737 (0676): Loading 'DbgHelp.dll'
+2018-05-14 16:11:07.737 (0676): Loaded 'C:\windows\SYSTEM32\dbghelp.dll'
+2018-05-14 16:11:07.738 (0676):   Product Name: Microsoft® Windows® Operating System
+2018-05-14 16:11:07.738 (0676):   File Version: 6.3.9600.17787 (winblue_r10.150331-1500)
+2018-05-14 16:11:07.738 (0676):   Product Version: 6.3.9600.17787
+2018-05-14 16:11:07.738 (0676): Finding function 'MiniDumpWriteDump'
+2018-05-14 16:11:07.738 (0676): Success
+2018-05-14 16:11:07.738 (0676): Registering unhandled exception filter
+2018-05-14 16:11:07.739 (0676): -----------------------------------------------------------------------------
+2018-05-14 16:11:07.739 (0676): argv[0]="C:\Program Files\Tableau\Tableau 10.4\bin\tdeserver64.exe"
+2018-05-14 16:11:07.739 (0676): argv[1]="--callback"
+2018-05-14 16:11:07.739 (0676): argv[2]="tab.pipe://./pipe/{B653BC16-ECA2-4A8A-8769-94050485A673}"
+2018-05-14 16:11:07.739 (0676): argv[3]="--listen"
+2018-05-14 16:11:07.739 (0676): argv[4]="tab.pipe://./pipe/auto"
+2018-05-14 16:11:07.739 (0676): argv[5]="--desktop"
+2018-05-14 16:11:07.739 (0676): argv[6]="--log"
+2018-05-14 16:11:07.739 (0676): argv[7]="C:\Users\monodutt\Documents\Personal\DataSc\Visualization\1.WhoGetstheBonus\Logs\tdeserver.txt"
+2018-05-14 16:11:07.739 (0676): pid=11668
+2018-05-14 16:11:07.739 (0676): Machine Configuration
+2018-05-14 16:11:07.739 (0676):   Max Descriptors: -1
+2018-05-14 16:11:07.739 (0676): Vectorization Support
+2018-05-14 16:11:07.739 (0676):   Supports SSE:    Yes
+2018-05-14 16:11:07.739 (0676):   Supports SSE2:   Yes
+2018-05-14 16:11:07.739 (0676):   Supports SSE3:   Yes
+2018-05-14 16:11:07.739 (0676):   Supports SSE4.1: Yes
+2018-05-14 16:11:07.739 (0676):   Supports SSE4.2: Yes
+2018-05-14 16:11:07.739 (0676):   Supports AVX:    Yes
+2018-05-14 16:11:07.739 (0676):   Supports AVX2:   Yes
+2018-05-14 16:11:07.739 (0676): Adjusted Values
+2018-05-14 16:11:07.739 (0676):   Physical RAM:              17045860352
+2018-05-14 16:11:07.739 (0676):   CPUs available to process: 4
+2018-05-14 16:11:07.739 (0676):   worker-threads:            4
+2018-05-14 16:11:07.739 (0676):   max-concurrency:           2
+2018-05-14 16:11:07.739 (0676):   query-parallelism:         2
+2018-05-14 16:11:07.739 (0676):   min-query-parallelism:     2
+2018-05-14 16:11:07.739 (0676):   work-buffer-size:          64
+2018-05-14 16:11:07.739 (0676):   TrackingMappedFiles :      1
+2018-05-14 16:11:07.739 (0676):   MemoryMapEntireFile:       1
+2018-05-14 16:11:07.739 (0676):   use-openfile-cache:        1
+2018-05-14 16:11:07.741 (0676): tdeserver: server listening for incoming connections at: tab.pipe://./pipe/{05E5F50F-F893-4301-8F56-34559F63A29D}
+2018-05-14 16:11:07.742 (0676): tdeserver: new connection, connection=tab.pipe://./pipe/{05E5F50F-F893-4301-8F56-34559F63A29D}
+2018-05-14 16:11:07.742 (9520): tdeserver: open session1, connection=tab.pipe://./pipe/{05E5F50F-F893-4301-8F56-34559F63A29D}
+2018-05-14 16:11:07.742 (9520): tdeserver: open session2, connection=tab.pipe://./pipe/{05E5F50F-F893-4301-8F56-34559F63A29D}
+2018-05-14 16:11:07.743 (12252): Session1: StatementOpen: stmt_guid=1
+2018-05-14 16:11:07.743 (5528): Session1: StatementPrepare: stmt_guid=1
+2018-05-14 16:11:07.743 (5528): (create database "C:\\windows\\TEMP\\TableauTemp\\#TableauTemp_1pz5z7z118voq01f3ej6j17ao90w.tde")
+2018-05-14 16:11:08.613 (5528): Session1: StatementPrepare: OK stmt_guid=1
+2018-05-14 16:11:08.613 (8616): Session1: StatementExecute: stmt_guid=1
+2018-05-14 16:11:08.613 (8616): Compiling query with Memory Budget=10505498624 MemoryAvailable=10505498624
+2018-05-14 16:11:08.614 (8616): Session1: StatementExecute: OK, Elapsed time:0.869s, Compilation time:0.869s, Execution time:0.000s
+2018-05-14 16:11:08.614 (10868): Session1: StatementClose: stmt_guid=1
+2018-05-14 16:11:08.614 (12252): Session1: QueryExecute:
+2018-05-14 16:11:08.614 (12252): (database null)
+2018-05-14 16:11:08.614 (12252): Compiling query with Memory Budget=10505502720 MemoryAvailable=10505502720
+2018-05-14 16:11:08.615 (12252): Session1: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2018-05-14 16:11:08.615 (9520): tdeserver: close session1, connection=tab.pipe://./pipe/{05E5F50F-F893-4301-8F56-34559F63A29D}
+2018-05-14 16:11:08.615 (5528): Session2: QueryExecute:
+2018-05-14 16:11:08.615 (5528): (database null)
+2018-05-14 16:11:08.615 (5528): Compiling query with Memory Budget=10505502720 MemoryAvailable=10505502720
+2018-05-14 16:11:08.615 (5528): Session2: QueryExecute: OK, Elapsed time:0.000s, Compilation time:0.000s, Execution time:0.000s
+2018-05-14 16:11:08.615 (9520): tdeserver: close session2, connection=tab.pipe://./pipe/{05E5F50F-F893-4301-8F56-34559F63A29D}
+2018-05-14 16:11:08.616 (9520): tdeserver: disconnected connection=tab.pipe://./pipe/{05E5F50F-F893-4301-8F56-34559F63A29D}: IPC_NamedPipeConnection::Read(len=16, connection=tab.pipe://./pipe/{05E5F50F-F893-4301-8F56-34559F63A29D}): The pipe has been ended.
+2018-05-14 16:11:08.616 (9520): tdeserver: closing connection=tab.pipe://./pipe/{05E5F50F-F893-4301-8F56-34559F63A29D}
+2018-05-14 16:11:08.616 (0676): tdeserver: new connection, connection=tab.pipe://./pipe/{05E5F50F-F893-4301-8F56-34559F63A29D}
+2018-05-14 16:11:08.617 (9588): tdeserver: open session3, connection=tab.pipe://./pipe/{05E5F50F-F893-4301-8F56-34559F63A29D}
+2018-05-14 16:11:08.617 (8616): Session3: QueryExecute:
+2018-05-14 16:11:08.617 (8616): (database "C:\\windows\\TEMP\\TableauTemp\\#TableauTemp_1pz5z7z118voq01f3ej6j17ao90w.tde")
+2018-05-14 16:11:08.619 (8616): Compiling query with Memory Budget=10504667136 MemoryAvailable=10504667136
+2018-05-14 16:11:08.620 (8616): Session3: QueryExecute: OK, Elapsed time:0.002s, Compilation time:0.002s, Execution time:0.000s
+2018-05-14 16:11:08.621 (9588): tdeserver: open session4, connection=tab.pipe://./pipe/{05E5F50F-F893-4301-8F56-34559F63A29D}
+2018-05-14 16:11:08.621 (10868): Session3: QueryExecute:
+2018-05-14 16:11:08.621 (10868): (show schemas)
+2018-05-14 16:11:08.621 (10868): Compiling query with Memory Budget=10503360512 MemoryAvailable=10503360512
+2018-05-14 16:11:08.623 (10868): Session3: QueryExecute: OK rowset_guid=1 n_columns=1, Elapsed time:0.002s, Compilation time:0.000s, Execution time:0.002s
+2018-05-14 16:11:08.625 (12252): Session3: RowsetGetValues: rowset_guid=1
+2018-05-14 16:11:08.625 (5528): Session3: RowsetGetValues: rowset_guid=1
+2018-05-14 16:11:08.625 (8616): Session3: RowsetClose: rowset_guid=1
+2018-05-14 16:11:08.626 (10868): Session3: StatementOpen: stmt_guid=2
+2018-05-14 16:11:08.626 (12252): Session3: StatementPrepare: stmt_guid=2
+2018-05-14 16:11:08.626 (12252): (create schema [TableauTemp])
+2018-05-14 16:11:08.626 (12252): Session3: StatementPrepare: OK stmt_guid=2
+2018-05-14 16:11:08.626 (5528): Session3: StatementExecute: stmt_guid=2
+2018-05-14 16:11:08.626 (5528): Compiling query with Memory Budget=10502803456 MemoryAvailable=10502803456
+2018-05-14 16:11:08.666 (5528): Session3: StatementExecute: OK, Elapsed time:0.044s, Compilation time:0.000s, Execution time:0.044s
+2018-05-14 16:11:08.666 (8616): Session3: StatementClose: stmt_guid=2
+2018-05-14 16:11:08.698 (10868): Session3: StatementOpen: stmt_guid=3
+2018-05-14 16:11:08.698 (12252): Session3: StatementPrepare: stmt_guid=3
+2018-05-14 16:11:08.698 (12252): (text "C:\\windows\\TEMP\\TableauTemp\\OfficeSupplies_0pec48d1ebzluq1gxpuef0p8y2zo.csv" (
+2018-05-14 16:11:08.698 (12252):      )
+2018-05-14 16:11:08.698 (12252):   ( ("collation" "en_US") ("locale" "en_US") ("single-char" "") ) )
+2018-05-14 16:11:08.744 (12252): Compiling query with DOP=2
+2018-05-14 16:11:08.763 (12252): Session3: StatementPrepare: OK stmt_guid=3
+2018-05-14 16:11:08.764 (5528): Session3: StatementExecute: stmt_guid=3
+2018-05-14 16:11:08.764 (5528): Compiling query with Memory Budget=10502373376 MemoryAvailable=10502373376
+2018-05-14 16:11:08.764 (5528): Session3: StatementExecute: OK stmt_guid=3 rowset_guid=4 n_columns=6, Elapsed time:0.060s, Compilation time:0.059s, Execution time:0.001s
+2018-05-14 16:11:08.765 (8616): Session3: StatementClose: stmt_guid=3
+2018-05-14 16:11:08.765 (10868): Session3: RowsetGetProperties: rowset_guid=4
+2018-05-14 16:11:08.765 (12252): Session3: RowsetClose: rowset_guid=4
+2018-05-14 16:11:09.214 (5528): Session3: StatementOpen: stmt_guid=5
+2018-05-14 16:11:09.214 (8616): Session3: StatementPrepare: stmt_guid=5
+2018-05-14 16:11:09.214 (8616): (create table-from-query [TableauTemp].[OfficeSupplies#csv]
+2018-05-14 16:11:09.214 (8616):   (text "C:\\windows\\TEMP\\TableauTemp\\OfficeSupplies_0pec48d1ebzluq1gxpuef0p8y2zo.csv" (
+2018-05-14 16:11:09.214 (8616):     ( ("builtin" "date") ("factory" "builtin") ("name" "OrderDate") ("ordinal" "0") )
+2018-05-14 16:11:09.214 (8616):     ( ("collation" "en_US") ("factory" "varchar") ("name" "Region") ("ordinal" "1") ("scale" "1") )
+2018-05-14 16:11:09.214 (8616):     ( ("collation" "en_US") ("factory" "varchar") ("name" "Rep") ("ordinal" "2") ("scale" "1") )
+2018-05-14 16:11:09.214 (8616):     ( ("collation" "en_US") ("factory" "varchar") ("name" "Item") ("ordinal" "3") ("scale" "1") )
+2018-05-14 16:11:09.214 (8616):     ( ("builtin" "bigint") ("factory" "builtin") ("name" "Units") ("ordinal" "4") )
+2018-05-14 16:11:09.214 (8616):     ( ("builtin" "double") ("factory" "builtin") ("name" "Unit Price") ("ordinal" "5") ) )
+2018-05-14 16:11:09.214 (8616):   ( ("character-set" "UTF-8") ("collation" "en_US") ("field-delimiter" ",") ("header-row" "true") ("locale" "en_US") ("single-char" "") ) ))
+2018-05-14 16:11:09.254 (8616): Compiling query with DOP=2
+2018-05-14 16:11:09.255 (8616): Session3: StatementPrepare: OK stmt_guid=5
+2018-05-14 16:11:09.255 (10868): Session3: StatementExecute: stmt_guid=5
+2018-05-14 16:11:09.256 (10868): Compiling query with Memory Budget=10505297920 MemoryAvailable=10505297920
+2018-05-14 16:11:10.623 (10868): LogScopeTime: Save::Build,43,2018-05-14 16:11:09.4900,1.13
+2018-05-14 16:11:10.623 (10868): Session3: StatementExecute: OK, Elapsed time:1.409s, Compilation time:0.041s, Execution time:1.367s
+2018-05-14 16:11:10.623 (12252): Session3: StatementClose: stmt_guid=5
+2018-05-14 16:11:10.625 (5528): Session3: StatementOpen: stmt_guid=6
+2018-05-14 16:11:10.625 (8616): Session3: StatementPrepare: stmt_guid=6
+2018-05-14 16:11:10.625 (8616): (restrict
+2018-05-14 16:11:10.625 (8616):   (top
+2018-05-14 16:11:10.625 (8616):     (project
+2018-05-14 16:11:10.625 (8616):       (table [TableauTemp].[OfficeSupplies#csv])
+2018-05-14 16:11:10.625 (8616):       (
+2018-05-14 16:11:10.625 (8616):         ([Number of Records] 1)
+2018-05-14 16:11:10.625 (8616):         )
+2018-05-14 16:11:10.625 (8616):       )
+2018-05-14 16:11:10.625 (8616):     ()
+2018-05-14 16:11:10.625 (8616):     1000)
+2018-05-14 16:11:10.625 (8616):   ([Item] [Number of Records] [OrderDate] [Region] [Rep] [Unit Price] [Units])
+2018-05-14 16:11:10.625 (8616):   )
+2018-05-14 16:11:10.625 (8616): 
+2018-05-14 16:11:10.627 (8616): Compiling query with DOP=2
+2018-05-14 16:11:10.628 (8616): Session3: StatementPrepare: OK stmt_guid=6
+2018-05-14 16:11:10.628 (10868): Session3: StatementExecute: stmt_guid=6
+2018-05-14 16:11:10.629 (10868): Compiling query with Memory Budget=10503479296 MemoryAvailable=10503479296
+2018-05-14 16:11:10.631 (10868): Session3: StatementExecute: OK stmt_guid=6 rowset_guid=7 n_columns=7, Elapsed time:0.005s, Compilation time:0.003s, Execution time:0.002s
+2018-05-14 16:11:10.631 (12252): Session3: StatementClose: stmt_guid=6
+2018-05-14 16:11:10.632 (5528): Session3: RowsetGetValues: rowset_guid=7
+2018-05-14 16:11:10.632 (8616): Session3: RowsetGetValues: rowset_guid=7
+2018-05-14 16:11:10.634 (10868): Session3: RowsetClose: rowset_guid=7
+2018-05-15 10:39:58.989 (12252): Session3: StatementOpen: stmt_guid=8
+2018-05-15 10:39:58.989 (5528): Session3: StatementPrepare: stmt_guid=8
+2018-05-15 10:39:58.989 (5528): (restrict
+2018-05-15 10:39:58.989 (5528):   (aggregate
+2018-05-15 10:39:58.989 (5528):     (table [TableauTemp].[OfficeSupplies#csv])
+2018-05-15 10:39:58.989 (5528):     (
+2018-05-15 10:39:58.989 (5528):       ([Region] [Region])
+2018-05-15 10:39:58.989 (5528):       )
+2018-05-15 10:39:58.989 (5528):     ()
+2018-05-15 10:39:58.989 (5528):     )
+2018-05-15 10:39:58.989 (5528):   ([Region])
+2018-05-15 10:39:58.989 (5528):   )
+2018-05-15 10:39:58.989 (5528): 
+2018-05-15 10:39:58.993 (5528): Compiling query with DOP=2
+2018-05-15 10:39:58.994 (5528): Session3: StatementPrepare: OK stmt_guid=8
+2018-05-15 10:39:58.994 (8616): Session3: StatementExecute: stmt_guid=8
+2018-05-15 10:39:58.994 (8616): Compiling query with Memory Budget=10801102848 MemoryAvailable=10801102848
+2018-05-15 10:39:58.996 (8616): Session3: StatementExecute: OK stmt_guid=8 rowset_guid=9 n_columns=1, Elapsed time:0.006s, Compilation time:0.005s, Execution time:0.002s
+2018-05-15 10:39:58.997 (10868): Session3: StatementClose: stmt_guid=8
+2018-05-15 10:39:58.997 (12252): Session3: RowsetGetValues: rowset_guid=9
+2018-05-15 10:39:58.997 (5528): Session3: RowsetGetValues: rowset_guid=9
+2018-05-15 10:39:58.998 (8616): Session3: RowsetClose: rowset_guid=9
+2018-05-15 10:40:20.993 (10868): Session3: StatementOpen: stmt_guid=10
+2018-05-15 10:40:20.993 (12252): Session3: StatementPrepare: stmt_guid=10
+2018-05-15 10:40:20.993 (12252): (restrict
+2018-05-15 10:40:20.993 (12252):   (aggregate
+2018-05-15 10:40:20.993 (12252):     (table [TableauTemp].[OfficeSupplies#csv])
+2018-05-15 10:40:20.993 (12252):     (
+2018-05-15 10:40:20.993 (12252):       ([Region] [Region])
+2018-05-15 10:40:20.993 (12252):       )
+2018-05-15 10:40:20.993 (12252):     (
+2018-05-15 10:40:20.993 (12252):       ([sum:Units:ok]
+2018-05-15 10:40:20.993 (12252):         (sum [Units])
+2018-05-15 10:40:20.993 (12252):         )
+2018-05-15 10:40:20.993 (12252):       )
+2018-05-15 10:40:20.993 (12252):     )
+2018-05-15 10:40:20.993 (12252):   ([Region] [sum:Units:ok])
+2018-05-15 10:40:20.993 (12252):   )
+2018-05-15 10:40:20.993 (12252): 
+2018-05-15 10:40:20.993 (12252): Compiling query with DOP=2
+2018-05-15 10:40:20.993 (12252): Session3: StatementPrepare: OK stmt_guid=10
+2018-05-15 10:40:20.993 (5528): Session3: StatementExecute: stmt_guid=10
+2018-05-15 10:40:20.993 (5528): Compiling query with Memory Budget=10791288832 MemoryAvailable=10791288832
+2018-05-15 10:40:20.993 (5528): Session3: StatementExecute: OK stmt_guid=10 rowset_guid=11 n_columns=2, Elapsed time:0.007s, Compilation time:0.003s, Execution time:0.004s
+2018-05-15 10:40:20.993 (8616): Session3: StatementClose: stmt_guid=10
+2018-05-15 10:40:20.993 (10868): Session3: RowsetGetValues: rowset_guid=11
+2018-05-15 10:40:20.993 (12252): Session3: RowsetGetValues: rowset_guid=11
+2018-05-15 10:40:20.993 (5528): Session3: RowsetClose: rowset_guid=11
+2018-05-15 10:54:44.480 (12252): Session3: StatementOpen: stmt_guid=12
+2018-05-15 10:54:44.480 (5528): Session3: StatementPrepare: stmt_guid=12
+2018-05-15 10:54:44.480 (5528): (restrict
+2018-05-15 10:54:44.480 (5528):   (aggregate
+2018-05-15 10:54:44.480 (5528):     (project
+2018-05-15 10:54:44.480 (5528):       (table [TableauTemp].[OfficeSupplies#csv])
+2018-05-15 10:54:44.480 (5528):       (
+2018-05-15 10:54:44.480 (5528):         ([yr:OrderDate:ok]
+2018-05-15 10:54:44.480 (5528):           (year [OrderDate])
+2018-05-15 10:54:44.480 (5528):           )
+2018-05-15 10:54:44.480 (5528):         )
+2018-05-15 10:54:44.480 (5528):       )
+2018-05-15 10:54:44.480 (5528):     (
+2018-05-15 10:54:44.480 (5528):       ([Region] [Region])
+2018-05-15 10:54:44.480 (5528):       ([yr:OrderDate:ok] [yr:OrderDate:ok])
+2018-05-15 10:54:44.480 (5528):       )
+2018-05-15 10:54:44.480 (5528):     (
+2018-05-15 10:54:44.480 (5528):       ([sum:Units:ok]
+2018-05-15 10:54:44.480 (5528):         (sum [Units])
+2018-05-15 10:54:44.480 (5528):         )
+2018-05-15 10:54:44.480 (5528):       )
+2018-05-15 10:54:44.480 (5528):     )
+2018-05-15 10:54:44.480 (5528):   ([Region] [sum:Units:ok] [yr:OrderDate:ok])
+2018-05-15 10:54:44.480 (5528):   )
+2018-05-15 10:54:44.480 (5528): 
+2018-05-15 10:54:44.480 (5528): Compiling query with DOP=2
+2018-05-15 10:54:44.480 (5528): Session3: StatementPrepare: OK stmt_guid=12
+2018-05-15 10:54:44.480 (8616): Session3: StatementExecute: stmt_guid=12
+2018-05-15 10:54:44.480 (8616): Compiling query with Memory Budget=10437120000 MemoryAvailable=10437120000
+2018-05-15 10:54:44.496 (8616): Session3: StatementExecute: OK stmt_guid=12 rowset_guid=13 n_columns=3, Elapsed time:0.013s, Compilation time:0.003s, Execution time:0.010s
+2018-05-15 10:54:44.496 (10868): Session3: StatementClose: stmt_guid=12
+2018-05-15 10:54:44.496 (12252): Session3: RowsetGetValues: rowset_guid=13
+2018-05-15 10:54:44.496 (5528): Session3: RowsetGetValues: rowset_guid=13
+2018-05-15 10:54:44.496 (8616): Session3: RowsetClose: rowset_guid=13
+2018-05-15 10:54:47.557 (10868): Session3: StatementOpen: stmt_guid=14
+2018-05-15 10:54:47.557 (12252): Session3: StatementPrepare: stmt_guid=14
+2018-05-15 10:54:47.557 (12252): (restrict
+2018-05-15 10:54:47.557 (12252):   (aggregate
+2018-05-15 10:54:47.557 (12252):     (project
+2018-05-15 10:54:47.557 (12252):       (table [TableauTemp].[OfficeSupplies#csv])
+2018-05-15 10:54:47.557 (12252):       (
+2018-05-15 10:54:47.557 (12252):         ([tyr:OrderDate:ok]
+2018-05-15 10:54:47.557 (12252):           (to_datetime
+2018-05-15 10:54:47.557 (12252):             (truncyear [OrderDate])
+2018-05-15 10:54:47.557 (12252):             )
+2018-05-15 10:54:47.557 (12252):           )
+2018-05-15 10:54:47.557 (12252):         )
+2018-05-15 10:54:47.557 (12252):       )
+2018-05-15 10:54:47.557 (12252):     (
+2018-05-15 10:54:47.557 (12252):       ([Region] [Region])
+2018-05-15 10:54:47.557 (12252):       ([tyr:OrderDate:ok] [tyr:OrderDate:ok])
+2018-05-15 10:54:47.557 (12252):       )
+2018-05-15 10:54:47.557 (12252):     (
+2018-05-15 10:54:47.557 (12252):       ([sum:Units:ok]
+2018-05-15 10:54:47.557 (12252):         (sum [Units])
+2018-05-15 10:54:47.557 (12252):         )
+2018-05-15 10:54:47.557 (12252):       )
+2018-05-15 10:54:47.557 (12252):     )
+2018-05-15 10:54:47.557 (12252):   ([Region] [sum:Units:ok] [tyr:OrderDate:ok])
+2018-05-15 10:54:47.557 (12252):   )
+2018-05-15 10:54:47.557 (12252): 
+2018-05-15 10:54:47.557 (12252): Compiling query with DOP=2
+2018-05-15 10:54:47.557 (12252): Session3: StatementPrepare: OK stmt_guid=14
+2018-05-15 10:54:47.557 (5528): Session3: StatementExecute: stmt_guid=14
+2018-05-15 10:54:47.557 (5528): Compiling query with Memory Budget=10435469312 MemoryAvailable=10435469312
+2018-05-15 10:54:47.557 (5528): Session3: StatementExecute: OK stmt_guid=14 rowset_guid=15 n_columns=3, Elapsed time:0.007s, Compilation time:0.005s, Execution time:0.003s
+2018-05-15 10:54:47.572 (8616): Session3: StatementClose: stmt_guid=14
+2018-05-15 10:54:47.572 (10868): Session3: RowsetGetValues: rowset_guid=15
+2018-05-15 10:54:47.572 (12252): Session3: RowsetGetValues: rowset_guid=15
+2018-05-15 10:54:47.572 (5528): Session3: RowsetClose: rowset_guid=15
+2018-05-15 12:56:32.304 (12252): Session3: StatementOpen: stmt_guid=16
+2018-05-15 12:56:32.304 (5528): Session3: StatementPrepare: stmt_guid=16
+2018-05-15 12:56:32.304 (5528): (restrict
+2018-05-15 12:56:32.304 (5528):   (aggregate
+2018-05-15 12:56:32.304 (5528):     (table [TableauTemp].[OfficeSupplies#csv])
+2018-05-15 12:56:32.304 (5528):     (
+2018-05-15 12:56:32.304 (5528):       ([Rep] [Rep])
+2018-05-15 12:56:32.304 (5528):       )
+2018-05-15 12:56:32.304 (5528):     ()
+2018-05-15 12:56:32.304 (5528):     )
+2018-05-15 12:56:32.304 (5528):   ([Rep])
+2018-05-15 12:56:32.304 (5528):   )
+2018-05-15 12:56:32.304 (5528): 
+2018-05-15 12:56:32.306 (5528): Compiling query with DOP=2
+2018-05-15 12:56:32.306 (5528): Session3: StatementPrepare: OK stmt_guid=16
+2018-05-15 12:56:32.306 (8616): Session3: StatementExecute: stmt_guid=16
+2018-05-15 12:56:32.307 (8616): Compiling query with Memory Budget=9741926400 MemoryAvailable=9741926400
+2018-05-15 12:56:32.308 (8616): Session3: StatementExecute: OK stmt_guid=16 rowset_guid=17 n_columns=1, Elapsed time:0.003s, Compilation time:0.002s, Execution time:0.001s
+2018-05-15 12:56:32.308 (10868): Session3: StatementClose: stmt_guid=16
+2018-05-15 12:56:32.309 (12252): Session3: RowsetGetValues: rowset_guid=17
+2018-05-15 12:56:32.309 (5528): Session3: RowsetGetValues: rowset_guid=17
+2018-05-15 12:56:32.310 (8616): Session3: RowsetClose: rowset_guid=17
+2018-05-15 12:56:37.957 (10868): Session3: StatementOpen: stmt_guid=18
+2018-05-15 12:56:37.958 (12252): Session3: StatementPrepare: stmt_guid=18
+2018-05-15 12:56:37.958 (12252): (restrict
+2018-05-15 12:56:37.958 (12252):   (aggregate
+2018-05-15 12:56:37.958 (12252):     (table [TableauTemp].[OfficeSupplies#csv])
+2018-05-15 12:56:37.958 (12252):     (
+2018-05-15 12:56:37.958 (12252):       ([Rep] [Rep])
+2018-05-15 12:56:37.958 (12252):       )
+2018-05-15 12:56:37.958 (12252):     (
+2018-05-15 12:56:37.958 (12252):       ([sum:Units:ok]
+2018-05-15 12:56:37.958 (12252):         (sum [Units])
+2018-05-15 12:56:37.958 (12252):         )
+2018-05-15 12:56:37.958 (12252):       )
+2018-05-15 12:56:37.958 (12252):     )
+2018-05-15 12:56:37.958 (12252):   ([Rep] [sum:Units:ok])
+2018-05-15 12:56:37.958 (12252):   )
+2018-05-15 12:56:37.958 (12252): 
+2018-05-15 12:56:37.960 (12252): Compiling query with DOP=2
+2018-05-15 12:56:37.961 (12252): Session3: StatementPrepare: OK stmt_guid=18
+2018-05-15 12:56:37.961 (5528): Session3: StatementExecute: stmt_guid=18
+2018-05-15 12:56:37.961 (5528): Compiling query with Memory Budget=9752592384 MemoryAvailable=9752592384
+2018-05-15 12:56:37.962 (5528): Session3: StatementExecute: OK stmt_guid=18 rowset_guid=19 n_columns=2, Elapsed time:0.004s, Compilation time:0.003s, Execution time:0.001s
+2018-05-15 12:56:37.962 (8616): Session3: StatementClose: stmt_guid=18
+2018-05-15 12:56:37.963 (10868): Session3: RowsetGetValues: rowset_guid=19
+2018-05-15 12:56:37.963 (12252): Session3: RowsetGetValues: rowset_guid=19
+2018-05-15 12:56:37.963 (5528): Session3: RowsetClose: rowset_guid=19
+2018-05-15 12:57:21.017 (8616): Session3: StatementOpen: stmt_guid=20
+2018-05-15 12:57:21.018 (10868): Session3: StatementPrepare: stmt_guid=20
+2018-05-15 12:57:21.018 (10868): (restrict
+2018-05-15 12:57:21.018 (10868):   (aggregate
+2018-05-15 12:57:21.018 (10868):     (table [TableauTemp].[OfficeSupplies#csv])
+2018-05-15 12:57:21.018 (10868):     (
+2018-05-15 12:57:21.018 (10868):       ([Region] [Region])
+2018-05-15 12:57:21.018 (10868):       ([Rep] [Rep])
+2018-05-15 12:57:21.018 (10868):       )
+2018-05-15 12:57:21.018 (10868):     (
+2018-05-15 12:57:21.018 (10868):       ([sum:Units:ok]
+2018-05-15 12:57:21.018 (10868):         (sum [Units])
+2018-05-15 12:57:21.018 (10868):         )
+2018-05-15 12:57:21.018 (10868):       )
+2018-05-15 12:57:21.018 (10868):     )
+2018-05-15 12:57:21.018 (10868):   ([Region] [Rep] [sum:Units:ok])
+2018-05-15 12:57:21.018 (10868):   )
+2018-05-15 12:57:21.018 (10868): 
+2018-05-15 12:57:21.019 (10868): Compiling query with DOP=2
+2018-05-15 12:57:21.020 (10868): Session3: StatementPrepare: OK stmt_guid=20
+2018-05-15 12:57:21.021 (12252): Session3: StatementExecute: stmt_guid=20
+2018-05-15 12:57:21.021 (12252): Compiling query with Memory Budget=9855021056 MemoryAvailable=9855021056
+2018-05-15 12:57:21.022 (12252): Session3: StatementExecute: OK stmt_guid=20 rowset_guid=21 n_columns=3, Elapsed time:0.004s, Compilation time:0.002s, Execution time:0.002s
+2018-05-15 12:57:21.023 (5528): Session3: StatementClose: stmt_guid=20
+2018-05-15 12:57:21.024 (8616): Session3: RowsetGetValues: rowset_guid=21
+2018-05-15 12:57:21.024 (10868): Session3: RowsetGetValues: rowset_guid=21
+2018-05-15 12:57:21.024 (12252): Session3: RowsetClose: rowset_guid=21
